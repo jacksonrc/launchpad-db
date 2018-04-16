@@ -16,3 +16,5 @@ LaunchPadDBName | String | <value>
 Additionally, I changed the copied `.db` filename to `<value>.db` so that the .plist key was pointing to the correct file.
 
 I then modified the LaunchPad configuration, restarted my computer, and voila! LaunchPad configuration was preserved once more!
+
+**This fix was made on macOS 10.12. It has not been confirmed to work on any other versions.**
